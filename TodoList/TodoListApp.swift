@@ -8,6 +8,7 @@
 import SwiftUI
 
 /*
+ 
  MVVM Architecture
  
  Model - data point

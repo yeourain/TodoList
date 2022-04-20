@@ -25,7 +25,7 @@ struct ListView: View {
             .onMove(perform: listViewModel.moveItem)
         }
         .listStyle(PlainListStyle())
-        .navigationTitle("Todo List 📝")
+        .navigationTitle("CheckList 📝")
         .navigationBarItems(
             leading: EditButton(),
             trailing:

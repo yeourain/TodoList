@@ -22,7 +22,7 @@ struct AddView: View {
                 TextField("Type something here...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(Color("mercury"))
+                    .background(Color(""))
                     .cornerRadius(10)
                 
                 Button(action: saveButtonPressed, label: {
